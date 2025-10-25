@@ -5,13 +5,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.*;
 
-/**
- * JUnit tests for verifying correctness and performance
- * of Prim’s and Kruskal’s algorithms.
- * Covers:
- *  - Correctness: same total cost, V-1 edges, acyclic, connected, handles disconnected graphs.
- *  - Performance: non-negative time, non-negative operation count, reproducibility.
- */
 public class MSTTest {
 
     @Test
